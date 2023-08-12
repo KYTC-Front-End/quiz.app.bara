@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>QUIZ GAME</title>
+    <style>
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .options {
+            margin-bottom: 20px;
+        }
+        .option {
+            margin-right: 10px;
+        }
+        .answer {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--start section-->
+    <section class="start-section" id="main">
+            <section class="img">
+            <img src="quiz.png" alt="quiz">
+            </section> 
+            <section class="discribtion">
+                <p>This is a simple test for you, let's test our knowledge in various fields,<br> including cultural and entertainment.</p>
+            </section>
+            <br>
+            <br>
+            <section class="button">
+                <input class="text"type="text" placeholder="enter name"></input>
+                <br>
+                <br>
+                <button id="start" class="text"type="button">Play Games</button>
+            </section>
+    </section>
+    <!--secound section-->
+    <section class="container" id="divquestion" style="display: none;">
+        <div id="question-container" >
+            <img src="quiz - Copy.png" alt="back">
+        </div>
+        <button id="submit-button" class="submit-button">Submit</button>
+        <div id="result" class="result"></div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+    
